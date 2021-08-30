@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>photo-frame</title>
+    <style>
+      body {
+        background-color: gray;
+        margin: 0;
+      }
+      h1 {
+        color: navy;
+        font-size: 50px;
+        text-align: center;
+        margin: 10px;
+        padding: 5px;
+        background-color: pink;
+        border-radius: 35px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana;
+      }
+      .album {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      h3 {
+        background-color: rgb(14, 6, 6);
+        color: white;
+        font-size: 30px;
+      }
+      p {
+        color: rgb(29, 49, 235);
+        font-size: 20px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .photo-frame {
+        width: 300px;
+        height: 375px;
+        border: 10px solid rgb(81, 135, 153);
+        border-radius: 20px;
+        position: relative;
+        background-color: rgba(41, 22, 124, 0.699);
+
+        margin: 5px;
+        overflow: hidden;
+      }
+      .photo-frame img {
+        width: 100%;
+      }
+      .photo-details {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: none;
+        text-align: center;
+        height: 100%;
+      }
+      .photo-frame:hover .photo-details {
+        display: block;
+        background-color: rgba(173, 216, 230, 0.527);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>MY Photo Album Book</h1>
+    <section class="album">
+      <div class="photo-frame">
+        <div class="photo">
+          <img class="rose" src="image/rose.jpg" alt="" />
+        </div>
+        <div class="photo-details">
+          <h3>beutiful flower</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            doloribus error enim, voluptates veritatis quibusdam quos quaerat
+            assumenda. Quis adipisci, aut rerum aliquam dolor molestiae
+            dignissimos corporis quaerat laudantium esse odio ad possimus sed
+            consequatur
+          </p>
+        </div>
+      </div>
+      <div class="photo-frame">
+        <div class="photo">
+          <img class="rose" src="image/flower.jpeg" alt="" />
+        </div>
+        <div class="photo-details">
+          <h3>beutiful flower</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            doloribus error enim, voluptates veritatis quibusdam quos quaerat
+            assumenda. Quis adipisci, aut rerum aliquam dolor molestiae
+            dignissimos corporis quaerat laudantium esse odio ad possimus sed
+            consequatur
+          </p>
+        </div>
+      </div>
+      <div class="photo-frame">
+        <div class="photo">
+          <img class="rose" src="image/apple.jpg" alt="" />
+        </div>
+        <div class="photo-details">
+          <h3>beutiful flower</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            doloribus error enim, voluptates veritatis quibusdam quos quaerat
+            assumenda. Quis adipisci, aut rerum aliquam dolor molestiae
+            dignissimos corporis quaerat laudantium esse odio ad possimus sed
+            consequatur
+          </p>
+        </div>
+      </div>
+      <div class="photo-frame">
+        <div class="photo">
+          <img class="rose" src="image/pexels-photo-736230.jpeg" alt="" />
+        </div>
+        <div class="photo-details">
+          <h3>beutiful flower</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            doloribus error enim, voluptates veritatis quibusdam quos quaerat
+            assumenda. Quis adipisci, aut rerum aliquam dolor molestiae
+            dignissimos corporis quaerat laudantium esse odio ad possimus sed
+            consequatur
+          </p>
+        </div>
+      </div>
+
+      <div class="photo-frame">
+        <div class="photo">
+          <img class="rose" src="image/blue.jpeg" alt="" />
+        </div>
+        <div class="photo-details">
+          <h3>beutiful flower</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            doloribus error enim, voluptates veritatis quibusdam quos quaerat
+            assumenda. Quis adipisci, aut rerum aliquam dolor molestiae
+            dignissimos corporis quaerat laudantium esse odio ad possimus sed
+            consequatur
+          </p>
+        </div>
+      </div>
+      <div class="photo-frame">
+        <div class="photo">
+          <img class="rose" src="image/beautiful.jpeg" alt="" />
+        </div>
+        <div class="photo-details">
+          <h3>beutiful flower</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            doloribus error enim, voluptates veritatis quibusdam quos quaerat
+            assumenda. Quis adipisci, aut rerum aliquam dolor molestiae
+            dignissimos corporis quaerat laudantium esse odio ad possimus sed
+            consequatur
+          </p>
+        </div>
+      </div>
+      <div class="photo-frame">
+        <div class="photo">
+          <img class="rose" src="image/download.jpeg" alt="" />
+        </div>
+        <div class="photo-details">
+          <h3>beutiful flower</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            doloribus error enim, voluptates veritatis quibusdam quos quaerat
+            assumenda. Quis adipisci, aut rerum aliquam dolor molestiae
+            dignissimos corporis quaerat laudantium esse odio ad possimus sed
+            consequatur
+          </p>
+        </div>
+      </div>
+      <div class="photo-frame">
+        <div class="photo">
+          <img class="rose" src="image/wow.jpeg" alt="" />
+        </div>
+        <div class="photo-details">
+          <h3>beutiful flower</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            doloribus error enim, voluptates veritatis quibusdam quos quaerat
+            assumenda. Quis adipisci, aut rerum aliquam dolor molestiae
+            dignissimos corporis quaerat laudantium esse odio ad possimus sed
+            consequatur
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
